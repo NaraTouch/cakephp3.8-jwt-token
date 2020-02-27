@@ -29,7 +29,9 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
     KEY                    VALUE
     Cache-Control          no-cache
     Content-Type           application/x-www-form-urlencoded
+    https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/1.jpg
   * For request body I used x-www-form-urlencoded
+    https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/2.jpg
     KEY                    VALUE
     email                  root@nomail.cyborg
     password               rootroot

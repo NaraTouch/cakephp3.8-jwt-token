@@ -25,16 +25,17 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 3. Setting up your database connecting in app.php
 4. When you done seting your project, Now you can testing it.
 5. Testin it with Postman.
-  * Header 
-    KEY                    VALUE
-    Cache-Control          no-cache
-    Content-Type           application/x-www-form-urlencoded
-    https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/1.jpg
+  * Header
+    * Cache-Control:no-cache
+    * Content-Type: application/x-www-form-urlencoded
+    
+    Image reference: https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/1.jpg
+    
   * For request body I used x-www-form-urlencoded
-    https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/2.jpg
-    KEY                    VALUE
-    email                  root@nomail.cyborg
-    password               rootroot
+    * email: root@nomail.cyborg
+    * password: rootroot
+    
+    Image reference: https://github.com/NaraTouch/cakephp3.8-jwt-token/blob/master/2.jpg
 
 Thank you guid for explore my repository. 
 If you have any question please leave the comment I will try to caught up with you as soon as posible.

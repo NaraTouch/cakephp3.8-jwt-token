@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.8.*
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
@@ -11,41 +11,31 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+3. Running project has two option
+    - Running with your server application such as xampp, warm, mamp ..ect.
+    - Running with cakephp server by using command line.
+      * your-project-directory/bin/cake server
+      than you will see the display port that your project running.
+## Setting up this project testing
+1. Clone this project repository by using git clone commandline.
+2. Setting up database for your project. You will one database backup in this project repository after you done clone.
+    * your-project-directory/config/schema/jwt.sql
+    You will need to restore this into you database. for me I used phpmyadmin for testing this project.
+    You can used any database you like by changing application database driver in app.php but by default cakephp will chose mysql.
+3. Setting up your database connecting in app.php
+4. When you done seting your project, Now you can testing it.
+5. Testin it with Postman.
+  * Header 
+    KEY                    VALUE
+    Cache-Control          no-cache
+    Content-Type           application/x-www-form-urlencoded
+  * For request body I used x-www-form-urlencoded
+    KEY                    VALUE
+    email                  root@nomail.cyborg
+    password               rootroot
 
-If Composer is installed globally, run
+Thank you guid for explore my repository. 
+If you have any question please leave the comment I will try to caught up with you as soon as posible.
+Or you can contact me by my twitter : https://twitter.com/sophonaratouch
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.

@@ -6,6 +6,9 @@
 A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.8.*
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+* Noted : I used this plugin to rest that token.
+composer require admad/cakephp-jwt-auth
+bin/cake plugin load ADmad/JwtAuth
 
 ## Installation
 
